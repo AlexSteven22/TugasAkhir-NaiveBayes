@@ -1,0 +1,30 @@
+Confusion Matrix:
+[[26 17]
+ [16 99]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     Negatif     0.6190    0.6047    0.6118        43
+     Positif     0.8534    0.8609    0.8571       115
+
+    accuracy                         0.7911       158
+   macro avg     0.7362    0.7328    0.7345       158
+weighted avg     0.7897    0.7911    0.7904       158
+
+
+Hasil 10-Fold Cross Validation:
+    Akurasi
+0  0.957447
+1  0.978723
+2  0.936170
+3  0.829787
+4  0.829787
+5  0.936170
+6  0.978261
+7  0.913043
+8  0.869565
+9  0.826087
+
+Rata-rata Akurasi: 0.9055
+Deviasi Standar Akurasi: 0.0586

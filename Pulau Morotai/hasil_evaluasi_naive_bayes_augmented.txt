@@ -1,0 +1,39 @@
+Confusion Matrix:
+[[ 4  1]
+ [ 1 24]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     Negatif     0.8000    0.8000    0.8000         5
+     Positif     0.9600    0.9600    0.9600        25
+
+    accuracy                         0.9333        30
+   macro avg     0.8800    0.8800    0.8800        30
+weighted avg     0.9333    0.9333    0.9333        30
+
+
+Hasil 10-Fold Cross Validation:
+    Akurasi
+0  0.916667
+1  0.909091
+2  1.000000
+3  0.818182
+4  0.909091
+5  1.000000
+6  0.909091
+7  1.000000
+8  0.909091
+9  1.000000
+
+Rata-rata Akurasi: 0.9371
+Deviasi Standar Akurasi: 0.0579
+
+Distribusi Sentimen Berdasarkan Prediksi Model (%):
+Positif: 83.33%
+Negatif: 16.67%
+
+
+Distribusi Sentimen Gabungan (Train + Test) (%):
+Positif: 58.16%
+Negatif: 41.84%
